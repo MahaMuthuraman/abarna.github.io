@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background: #f5f7fa;
+    color: #333;
+}
+
+/* Navigation */
+header {
+    background: #1a1a2e;
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00adb5;
+}
+
+.btn {
+    background: #00adb5;
+    padding: 8px 14px;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #16213e, #0f3460);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.btn-primary {
+    display: inline-block;
+    margin-top: 20px;
+    background: #00adb5;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Sections */
+.section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    color: #16213e;
+}
+
+.light {
+    background: white;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 4px solid #00adb5;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1a1a2e;
+    color: white;
+}
